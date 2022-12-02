@@ -1,0 +1,6 @@
+{
+  "query": "mutation {customerLogin (email: \"${email}\",passphrase: \"${passphrase}\") {token, customer, firstName, lastName, phone}}",
+  "variables": {
+
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "query": "{\n\t\t\tgetTokenConversionRate\n\t\t\tmarketplaceTokenBalance {\n\t\t\t\t\n\tbusinessName\n\tbusinessEndpoint\n\trole\n\tbalance\n\n\t\t\t}\n\t\t}",
+  "variables": {
+
+  }
+}

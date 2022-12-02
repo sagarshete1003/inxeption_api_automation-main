@@ -1,0 +1,4 @@
+{
+  "query": "\n\t\t\tquery {\n\t\t\t\tbizTokenTxns(\n\t\t\t\t\twhere: {\n\t\t\t\t\t\tbusinessId: \"cl6m8px4q8jaz0904b66a4bfo\"\n\t\t\t\t\t}, first: 100, skip: 0,  orderDirection: DESC)\n\t\t\t\t\t{\n\t\t\t\t\ttxns\n\t\t\t\t\t{\n\t\t\t\t\t\tid\n\t\t\t\t\t\ttxn\n\t\t\t\t\t\tstatus\n\t\t\t\t\t\tdate\n\t\t\t\t\t\tvalue\n\t\t\t\t\t\tactor {\n\t\t\t\t\t\t\tid\n\t\t\t\t\t\t\tname\n\t\t\t\t\t\t}\n\t\t\t\t\t\tnote\n\t\t\t\t\t\tsender {\n\t\t\t\t\t\t\taddress\n\t\t\t\t\t\t\tname\n\t\t\t\t\t\t}\n\t\t\t\t\t\treceiver{\n\t\t\t\t\t\t\taddress\n\t\t\t\t\t\t\tname\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\tpage {\n\t\t\t\t\t\tfirst\n\t\t\t\t\t\tskip\n\t\t\t\t\t\tcount\n\t\t\t\t  \t}\n\t\t\t\t}\n\t\t\t}\n\t\t",
+  "variables": {}
+}

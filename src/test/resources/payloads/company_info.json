@@ -1,0 +1,6 @@
+{
+  "query": "{ config { data } }",
+  "variables": {
+
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "query": "mutation {login (email: \"${email}\", password: \"${password}\" ) {\n\ttoken\n\tissuedAt\n\texpiresAt\n\tuser\n\t{\n\tid\n\temail\n\t}\n\tlastLogin\n\t}\n\t}",
+  "variables": {
+
+  }
+}

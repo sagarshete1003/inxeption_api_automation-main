@@ -1,0 +1,6 @@
+{
+  "query": "{\n\t\t\tdefaultChannel {\n\t\t\t\t\n\tid\n\tcode\n\tname\n\tpoSetting\n\tblocksCCs\n\tallowPaypal\n\tproductionUrl\n\ttermsConditionsUrl\n\tprivacyPolicyUrl\n\tthankYouMessage\n\tallowWireTransfer\n\tallowCheck\n\tallowTokenPayment\n\tallowPaymentTerms\n\tacceptsExternalPayments\n\texternalPaymentsLabel\n\texternalPaymentsMessage\n\tallowToken\n\tallowACH\n\ttype\n\tdisplayChannelDiscounts\n\tcheckoutLogo {\n\t\tid\n\t\turl\n\t\tcontentType\n\t\tname\n\t\tsize\n\t}\n\tshippingRules{\n\t\thideShippingRate\n\t}\n\n\t\t\t}\n\t\t}",
+  "variables": {
+
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "query": "\n\t\tquery {\n\t\t\tsessionContactAccount(\n\t\t\t  where: {\n\t\t\t\ttoken: \"${token}\"\n\t\t\t  }\n\t\t\t) {\n\tid\n\tname\n\tdocuments (orderBy: createdAt_DESC){\n\t  id\n\t  isUploadedBySeller\n\t  mustAccept\n\t  description\n\t  name\n\t  acceptedAt\n\t  acceptedBy\n\t  active\n\t  displayToBuyer\n\t  uploadedBy\n\t  createdAt\n\t  updatedAt\n\t  file {\n\t\t  id\n\t\t  url\n\t\t  name\n\t  }\n\t  comments {\n\t\t  id\n\t\t  comment\n\t\t  madeBy\n\t\t  createdAt\n\t\t  updatedAt\n\t  }\n\t}\n  }\n\t\t  }",
+  "variables": {
+
+  }
+}

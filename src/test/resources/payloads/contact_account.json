@@ -1,0 +1,3 @@
+{
+  "query": "\n\t\tquery {\n\t\t\tsessionContactAccount(where: {\n\t\t\t\ttoken: \"${token}\"\n\t\t\t  }\n\t\t\t) {\n\tid\n\tname\n\tdocuments (orderBy: createdAt_DESC){\n\tid\n\tisUploadedBySeller\n\tmustAccept\n\tdescription\n\tname\n\tacceptedAt\n\tacceptedBy\n\tactive\n\tdisplayToBuyer\n\tuploadedBy\n\tcreatedAt\n\tupdatedAt\n\tfile {\n\tid\n\turl\n\tname\n\t}\n\tcomments {\n\tid\n\tcomment\n\tmadeBy\n\tcreatedAt\n\tupdatedAt\n\t  }\n\t}\n  }\n\t\t  }"
+}

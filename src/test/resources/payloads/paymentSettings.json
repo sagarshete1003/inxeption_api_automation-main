@@ -1,0 +1,6 @@
+{
+  "query": "{\n\t\t\t\tpaymentSettings(where: {paymentMethod: DirectACH}) {\n\t\t\t\t\t\n    id\n    paymentMethod\n    processorCustomerId\n    processorSourceId\n    customerEmail\n    creditCardBrand\n    paymentAccountLast4\n    creditCardExpMonth\n    creditCardExpYear\n    creditCardStatus\n    customerName\n    customerType\n    achVerifyStatus\n    businessId\n\n\t\t\t\t}\n\t\t\t}",
+  "variables": {
+
+  }
+}
